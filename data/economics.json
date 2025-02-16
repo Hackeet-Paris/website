@@ -1,0 +1,45 @@
+{
+	"symbols":
+	{
+		"EUR" : "&#8364",
+		"USD" : "$",
+		"GBP" : "&#163",
+		"eur" : "&#8364",
+		"usd" : "$",
+		"gbp" : "&#163"
+	},
+
+	"taxes":
+	{
+		"domestic" : "FR",
+		"BE":{ "name" : "vat", "country" : "BE", "value" :0.21}, 
+		"BG":{ "name" : "vat", "country" : "BG", "value" :0.2},
+		"CZ":{ "name" : "vat", "country" : "CZ", "value" :0.21},
+		"DK":{ "name" : "vat", "country" : "DK", "value" :0.25}, 
+		"DE":{ "name" : "vat", "country" : "DE", "value" :0.19}, 
+		"EE":{ "name" : "vat", "country" : "EE", "value" :0.2}, 
+		"IE":{ "name" : "vat", "country" : "IE", "value" :0.23}, 
+		"EL":{ "name" : "vat", "country" : "EL", "value" :0.24},
+		"ES":{ "name" : "vat", "country" : "ES", "value" :0.21},
+		"FR":{ "name" : "vat", "country" : "FR", "value" :0.2}, 
+		"HR":{ "name" : "vat", "country" : "HR", "value" :0.25}, 
+		"IT":{ "name" : "vat", "country" : "IT", "value" :0.22}, 
+		"CY":{ "name" : "vat", "country" : "CY", "value" :0.19}, 
+		"LV":{ "name" : "vat", "country" : "LV", "value" :0.21}, 
+		"LT":{ "name" : "vat", "country" : "LT", "value" :0.21}, 
+		"LU":{ "name" : "vat", "country" : "LU", "value" :0.17}, 
+		"HU":{ "name" : "vat", "country" : "HU", "value" :0.27}, 
+		"MT":{ "name" : "vat", "country" : "MT", "value" :0.18}, 
+		"NL":{ "name" : "vat", "country" : "NL", "value" :0.21}, 
+		"AT":{ "name" : "vat", "country" : "AT", "value" :0.2}, 
+		"PL":{ "name" : "vat", "country" : "PL", "value" :0.23}, 
+		"PT":{ "name" : "vat", "country" : "PT", "value" :0.23}, 
+		"RO":{ "name" : "vat", "country" : "RO", "value" :0.19}, 
+		"SI":{ "name" : "vat", "country" : "SI", "value" :0.22}, 
+		"SK":{ "name" : "vat", "country" : "SK", "value" :0.2}, 
+		"FI":{ "name" : "vat", "country" : "FI", "value" :0.24}, 
+		"SE":{ "name" : "vat", "country" : "SE", "value" :0.25}, 
+		"UK":{ "name" : "vat", "country" : "UK", "value" :0.2},
+		"GB":{ "name" : "vat", "country" : "GB", "value" :0.2}
+	}
+}

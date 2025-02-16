@@ -1,0 +1,16 @@
+{
+	"company": {
+		"logo": "/images/Hackeet.png",
+		"name": "Nitens Lux SAS",
+		"address": "196 Boulevard Saint-Denis - 92400 Courbevoie - France",
+		"email": "contact@hackeet.com",
+		"phone": "+33644600620",
+		"tax_name": "VAT",
+		"tax_id": "FR06752713693",
+		"stripe_pk": "pk_test_e9NuEXN7gwzfam3ANXkJYNiw",
+		"editor": "Thierry Louis-Ernest",
+		"siret": "75271369300014",
+		"capitalization_amount": 10000,
+		"capitalization_ccy": "&euro;"
+	}
+}
