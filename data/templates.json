@@ -1,0 +1,17 @@
+[{
+"apps":"Twitter, MongoDb",
+"description":"This workflow can be used to send an MMS message to the number specified from your Plivo number using Plivo. Also, you can use the Plivo node to send SMS messages and to make a call.",
+"level":"Basic",
+"title":"Send an MMS message with Plivo",
+"url":"/hackeet/html/templates/template.reference.html",
+"uuid":"f8a5faa9-c771-497a-a2e5-8bad8fca9a38"
+}
+,{
+"apps":"Twitter, MongoDb, mailjet,mail",
+"description":"This workflow can be used to send an MMS message to the number specified from your Plivo number using Plivo. Also, you can use the Plivo node to send SMS messages and to make a call.",
+"level":"Basic",
+"title":"Send an MMS message with Plivo 2",
+"url":"/hackeet/html/templates/template.reference.html",
+"uuid":"f8a5faa9-c771-497a-a2e5-8bad8fca9a38"
+}
+]

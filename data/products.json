@@ -1,0 +1,80 @@
+{
+    "monthly": {
+		
+        "hackeet_starter_monthly_edition": {
+            "meta": {
+                "uuid": "61babc41-9e53-4f9b-94db-1128851dff2f1",
+                "quantity": 1,
+                "version": "2.1.5",
+                "release_date": "September 2018",
+                "icon": "http://localhost/hackeet/img/theme/rocket.png",
+                "title": "Plan Title",
+				"name": "Starter Plan",
+				"incipit": "The plan to start",
+				"summary" : "Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper dolor sit amet consectu dolorr.",
+                "try_label": "Try",
+                "buy_label": "Buy",
+                "features": [
+					{"text" : "feature 1" , "icon": "list", "mime":"png"},
+				    {"text" : "feature 2" },
+				    {"text" : "feature 3" },
+					{"text" : "feature 4" }
+                ],
+                "documentation": ""
+            },
+			"billing": 
+			{
+				"plan_name": "Starter Plan",
+				"plan_description": "{{start}} to {{expiry}}, {{max_events_sec}} events/sec",
+				"plan_icon": "https://m.media-amazon.com/images/I/91w1s33fIdL._AC_UY327_QL65_.jpg",
+				"additional_server_name" : "{{quantity}} Additional server(s), {{duration}} month(s) subscription",
+				"additional_server_description": "{{quantity}} Hosted applications",
+				"additional_server_icon":"https://m.media-amazon.com/images/I/81uwk+ags9L._AC_UY327_QL65_.jpg",
+				"tax_name" : "Taxes - {{tax_name}}",
+				"tax_description" : "Tax ({{tax_name}}.{{country}}) - {{tax_value}}%",
+				"tax_icon" : "https://m.media-amazon.com/images/I/51by9-Beq-L._AC_UY327_QL65_.jpg"
+			},
+            "pricing": 
+			{
+                "amount": 2000,
+                "ccy": "usd",
+                "unit": "month",
+                "tax_included": "true",
+				"tax" : "vat",
+				"durations" : 
+				[
+					{"duration" : "1m", "label" : "1 month licence"},
+					{"duration" : "2m", "label" : "2 months"},
+					{"duration" : "3m", "label" : "3 months"},
+					{"duration" : "6m", "label" : "6 months"},
+					{"duration" : "1y", "label" : "1 year"}
+				],
+				"rates":
+				[
+					{"performance":5,  "unit":"events per second", "price":1000, "additional_server" : 100, "uuid" : "performance_5", "name":"Standard"},
+					{"performance":10, "unit":"events per second", "price":2000, "additional_server" : 100, "uuid" : "performance_10", "name":"Pro"},
+					{"performance":20, "unit":"events per second", "price":3000, "additional_server" : 100, "uuid" : "performance_20", "name":"Platinium"},
+					{"performance":400, "unit":"events per second", "price":4000, "additional_server" : 100, "uuid" : "performance_40", "name":"Entreprise"}
+				],
+				"included_hosted_apps" : 1,
+				"additionnal_resources" : { "maximum_number_of_resources" : 5}
+            },
+            "license": {
+                "duration": "{{duration}}",
+                "unit": "month",
+                "license_type": "Standard",
+                "max_events_sec": "{{max_events_sec}}",
+				"max_servers" : "{{max_servers}}",
+                "user": "{{user}}",
+                "start": "{{start}}",
+                "expiry": "{{expiry}}",
+                "application_name": "Hackeet Beta Website",
+                "application_uuid": "8e580535-4252-4348-9893-187fdebe0218",
+				"mac_address" : "{{mac_address}}", 
+				"filesystem_uuid" : "{{filesystem_uuid}}",
+				"pool_size":5
+            }
+        }
+    }
+}
