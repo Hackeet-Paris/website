@@ -1,2 +1,2 @@
 # website
-Test
+Hackeet website assets and scripts
